@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+//리액트를 사용하기 위한 리액트 라이브러리 호출 - 리액트 기능 및 컴포넌트 사용 가능
+import React from 'react'; 
 
-function App() {
+//App 이라는 이름의 상수를 선언하고, 화살표 함수로 정의된 함수형 컴포넌트
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      App
     </div>
   );
-}
+};
 
+//App 컴포넌트를 다른 파일에서 재사용할 수 있도록 내보내기 설정
 export default App;

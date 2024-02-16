@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// setting
+@import "setting/fonts"; //폰트 파일
+@import "setting/vars"; //변수 관련
+@import "setting/reset"; //브라우저 스타일 초기화
+@import "setting/mixin"; // 믹스인 관련
+@import "setting/common"; // 공통
+
+//section
+@import "section/layout";
+@import "section/header";
+@import "section/search";
+@import "section/today"; 
+@import "section/developer"; 
