@@ -76,7 +76,7 @@
                 font-size: 5vw;
                 line-height: 1;
                 font-weight: 900;
-                font-family: var(--mainNum-font);
+                font-family: var(--mainfont-pretendard);
                 position: absolute;
                 left: 1vw;
                 top: 1vw;
@@ -97,7 +97,7 @@
                     font-weight: 900;
                     text-transform: uppercase;
                     text-decoration: underline;
-                    font-family: var(--mainEng-font);
+                    font-family: var(--mainfont-pretendard);
 
                     @media (max-width: 800px){ 
                         font-size: 26px;
