@@ -1,59 +1,24 @@
-import { CiBaseball } from "react-icons/ci";
-import { CiDumbbell } from "react-icons/ci";
-import { CiMoneyBill } from "react-icons/ci";
 
-import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-
-export const headerMenus = [
+//export 내보내기 선언을 해야 다른 페이지에서 사용 가능
+export const headerNav = [
     {
-        title: "HOME",
-        icon: <CiBaseball />,
-        src: "/"
+        title: "intro",
+        url: "#intro",
     },
     {
-        title: "Swiper",
-        icon: <CiMoneyBill />,
-        src: "/today"
+        title: "skill",
+        url: "#skill",
     },
     {
-        title: "포트폴리오",
-        icon: <CiDumbbell />,
-        src: "/portfolio"
+        title: "site",
+        url: "#site",
     },
     {
-        title: "추천개발자",
-        icon: <CiDumbbell />,
-        src: "/developer"
+        title: "portfolio",
+        url: "#port",
     },
     {
-        title: "채널",
-        icon: <CiDumbbell />,
-        src: "/channel"
+        title: "contact",
+        url: "#contact",
     },
 ];
-
-export const snsLink = [
-    {
-        title: "github",
-        url: "https://github.com/webstoryboy",
-        icon: <AiFillGithub />
-    },
-    {
-        title: "youtube",
-        url: "https://www.youtube.com/webstoryboy",
-        icon: <AiFillYoutube />
-    },
-    {
-        title: "codepen",
-        url: "https://codepen.io/webstoryboy",
-        icon: <AiOutlineCodepen />
-    },
-    {
-        title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
-        icon: <AiOutlineInstagram />
-    },
-]
