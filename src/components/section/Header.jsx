@@ -7,7 +7,6 @@ const Header = () => {
 
     // show라는 상태 변수를 생성하고 useState 훅으로 초기값을 false로 설정
     // show가 true이면 모바일 메뉴 노출, false이면 비노출.
-
     const [show, setShow] = useState(false);
 
     const toggleMenu = () => {
@@ -19,7 +18,7 @@ const Header = () => {
         <header id='header' role='banner'>
             <div className='header__inner'>
                 <div className='header__logo'>
-                    <a href="/">PortFolio <em>vite</em></a>
+                    <a href="/">BarunsonCard</a>
                 </div>
                 <nav className='header__nav' role='navigation' aria-label="메인 메뉴">
                     <ul>
@@ -40,7 +39,7 @@ const Header = () => {
                     aria-controls="primary-menu" 
                     aria-expanded={show ? "true" : "false"}
                     role="button" 
-                    tabindex="0"
+                    tabIndex="0"
                     onClick={toggleMenu}
                 >
                     <span></span>

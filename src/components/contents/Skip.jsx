@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Skip = () => {
   return (
     <div>
-      Portfolio
+      Skip
     </div>
   );
 };
 
-export default Portfolio;
+export default Skip;

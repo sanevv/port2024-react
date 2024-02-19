@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Skill = () => {
   return (
     <div>
-      Portfolio
+      Skill
     </div>
   );
 };
 
-export default Portfolio;
+export default Skill;

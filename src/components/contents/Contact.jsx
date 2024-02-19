@@ -1,11 +1,11 @@
 import React from 'react';
 
-const VideoSearch = () => {
+const Contact = () => {
   return (
     <div>
-      
+      Contact
     </div>
   );
 };
 
-export default VideoSearch;
+export default Contact;
